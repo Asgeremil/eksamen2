@@ -1,0 +1,169 @@
+/*CSS document*/
+
+/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
+
+/*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
+
+
+/*HEADER*/
+
+/* example where you target the h1 inside the header tag and give it a color and a size */
+
+/* padding  incl. i width*/
+body {
+	box-sizing: border-box;
+
+	/* sådan smider jeg et baggrunds image ind */
+
+	background-image: url("../images/Ocean.jpg");
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+.AsgerNeidhardt {
+
+	position: relative;
+	
+	left
+
+	border: 3px; 
+
+
+	width: 30%;
+
+}
+
+
+
+/* Demo purposes only */
+body {
+	background-color: #212121;
+	padding: 50px 0;
+	text-align: center;
+}
+
+
+
+
+header h1 {
+	color: aqua;
+	font-size: 12px;
+	
+}
+
+
+header {
+
+	width: 100%;
+	min-height: 80px;
+}
+
+/*Main*/
+
+/* example to be deleted*/
+p {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 18px;
+}
+
+/*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 12px;
+}
+
+table th {
+	text-align: left;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+h2 {
+
+	border-style: solid;
+
+	background-color: snow;
+}
+
+ul {
+	border-style: solid;
+
+	background-color: snow;
+
+
+}
+
+ol {
+	border-style: solid;
+
+	background-color: snow;
+}
+
+
+
+
+
+/* sådan laver jeg class til hver enkelt billede, således at jeg kan redigere enkelte billeder */
+.AUS {
+
+	float: left;
+
+}
+
+
+.asger {
+
+	width: 190px;
+	border-radius: 65%;
+	position: absolute;
+	left: 800px;
+	bottom: 450px;
+	z-index: -1;
+
+}
+
+
+}
+
+.migmor {
+
+	float: left;
+
+
+}
+
+
+
+}
+
+h2 {
+	font-family: cursive;
+	font-size: 25px;
+}
+
+h1 {
+	font-family: "Times New Roman", sans-serif;
+	font-style: italic;
+}
+
+
+h3 {
+	font-family: "Times New Roman", sans-serif;
+	font-variant-position: super;
+
+}
+
+
+
+div {
+	text-align: center;
+
+}
