@@ -79,7 +79,7 @@ forside afsnit
     
     h2 {
         color: black;
-        text-align: center;
+        margin-bottom: 5%;
     }
     
     ul {
@@ -117,6 +117,14 @@ forside afsnit
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+    }
+    
+    img {
+        width: 40%;
+    }
+    
+    .billede2 {
+        width: 30%;
     }
     
 }
