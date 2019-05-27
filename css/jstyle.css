@@ -1,0 +1,138 @@
+.accordion {
+    background-color: #7DADAD;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    margin: 1% 0 0 0;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 20px;
+    background-color: #7DADAD;
+    color: white;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.section {
+    display: none;
+}
+
+/*
+forside afsnit
+*/
+
+.mobile {
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.laptop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .laptop {
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+
+    /* Section */
+    .accordion {
+        display: none;
+    }
+    
+    .panel {
+        display: none;
+    }
+
+    .section {
+        clear: both;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        width: 100%;
+    }
+
+    .top {
+        margin: 1% 0 1% 1%;
+    }
+
+    .bottem {
+        margin: 5% 0 0 0;
+        float: left;
+    }
+
+    /* Column */
+    .col {
+        background: #eee;
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1%;
+        padding: 2%;
+    }
+
+    /* Grid */
+    .grid_1_of_2 {
+        width: 45%
+    }
+
+    .grid_2_of_2 {
+        width: 100%
+    }
+
+    article {
+        width: 100%;
+    }
+    
+    section {
+        width: 80%;
+        margin: 2% 0 2% 10%;
+    }
+    
+    section h3 {
+        color: black;
+    }
+    
+    li {
+        color: cadetblue;
+        font-weight: 200;
+    }
+    
+    p {
+        color: dimgray;
+    }
+    
+    
+}
