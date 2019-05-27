@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <section id="preheader">
+      <section id="logo-burger">
+            <a id="logo" href="index.html"><img src="logo.png" alt="logo"></a>
+            <label for="toggle">
+                <div id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </label>
+        </section>
+        
+        </section>
+        <ul id="desktop-menu">
+                <a href="index.html"><img src="images/retrohjem_logo2.png" alt="Retrohjems logo" id="rhlogo"></a>
+                <li><a href="#">DØDSBO OG INDBO</a></li>                
+ <div class="dropdown">
+  <a href=""><div class="dropbtn">PRODUKTER</div></a>
+  <ul class="dropdown-content">
+                    <li><a href=""><img src="images/alt.png" alt="ikon for alle produkter" >Alle Produkter</a></li>
+                    <li><a href=""><img src="images/stol.png" alt="ikon af en stol">Stole</a></li>
+                    <li><a href="" class="sofa"><img src="images/sofa.png" alt="ikon af en sofa" id="sofa">Sofaer</a></li>
+                    <li><a href=""><img src="images/bord.png" alt="ikon af en skænk">Skænke</a></li>
+                    <li><a href=""><img src="images/lampe.png" alt="Ikon af en lampe">Lamper</a></li>
+    </ul>
+    </div>
+                
+                <li><a href="#">INSPIRATION</a></li>
+                <li><a href="#">KONTAKT</a></li>
+       </ul>
+       <header>
+        <nav>
+            <input type="checkbox" id="toggle" class="hidden">
+            <!-- This has to be outside of #logo-burger to work. #main-nav cannot be selected when this is in a container -->
+            <ul id="main-nav">
+                <a href="index.html"><img src="images/retrohjem_logo2.png" alt="Retrohjems logo" id="rhlogo"></a>
+                <li><a href="#">DØDSBO OG INDBO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">PRODUKTER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">INSPIRATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">KONTAKT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <section id="some">
+                <a href="https://www.instagram.com/retrohjem.dk/"><img src="images/instagram.png" alt="Instagram logo"></a>
+                <a href="https://www.facebook.com/retrohjem.dk/"><img src="images/facebook.png" alt="Facebook logo"></a>
+                </section>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        $(document).ready(function() {
+            $('#nav-icon3').click(function() {
+                $(this).toggleClass('open');
+            });
+        });
+    </script>
+</body></html>
