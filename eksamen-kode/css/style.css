@@ -1,169 +1,412 @@
-/*CSS document*/
-
-/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
-
-/*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
-
-
-/*HEADER*/
-
-/* example where you target the h1 inside the header tag and give it a color and a size */
-
-/* padding  incl. i width*/
 body {
 	box-sizing: border-box;
-
-	/* sådan smider jeg et baggrunds image ind */
-
-	background-image: url("../images/Ocean.jpg");
-	background-repeat: no-repeat;
-	
-	
-}
-
-
-.AsgerNeidhardt {
-
-	position: relative;
-	
-	left
-
-	border: 3px; 
-
-
-	width: 30%;
-
-}
-
-
-
-/* Demo purposes only */
-body {
-	background-color: #212121;
-	padding: 50px 0;
-	text-align: center;
-}
-
-
-
-
-header h1 {
-	color: aqua;
-	font-size: 12px;
-	
-}
-
-
-header {
-
-	width: 100%;
-	min-height: 80px;
-}
-
-/*Main*/
-
-/* example to be deleted*/
-p {
-	font-family: "Times New Roman", sans-serif;
-	font-size: 18px;
-}
-
-/*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
-
-table,
-th,
-td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 12px;
-}
-
-table th {
-	text-align: left;
-}
-
-table {
-	border-spacing: 5px;
-}
-
-h2 {
-
-	border-style: solid;
-
-	background-color: snow;
-}
-
-ul {
-	border-style: solid;
-
-	background-color: snow;
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	height: 100%;
 
 
 }
 
-ol {
-	border-style: solid;
-
-	background-color: snow;
-}
 
 
 
+/*FOOTER - START*/
 
-
-/* sådan laver jeg class til hver enkelt billede, således at jeg kan redigere enkelte billeder */
-.AUS {
-
-	float: left;
-
-}
-
-
-.asger {
-
-	width: 190px;
-	border-radius: 65%;
+.footer {
 	position: absolute;
-	left: 800px;
-	bottom: 450px;
-	z-index: -1;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #669999;
+	color: white;
+	text-align: left;
+	padding-left: 5%;
+	margin-bottom: -600px;
 
 }
 
+/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+
+.ig {
+	position: absolute;
+	bottom: 0;
+	width: 8%;
+	padding-left: 80%;
+	margin: 5%;
+	display: inline-block;
+		margin-bottom: -580px;
+
 
 }
 
-.migmor {
-
-	float: left;
+.fb {
+	position: absolute;
+	bottom: 0;
+	width: 8%;
+	padding-left: 70%;
+	margin: 5%;
+	display: inline-block;
+			margin-bottom: -580px;
 
 
 }
 
+/*FOOTER - SLUT*/
 
 
-}
-
-h2 {
-	font-family: cursive;
-	font-size: 25px;
-}
+/*KONTAKT OS SIDE - START*/
 
 h1 {
-	font-family: "Times New Roman", sans-serif;
-	font-style: italic;
-}
 
-
-h3 {
-	font-family: "Times New Roman", sans-serif;
-	font-variant-position: super;
+	padding-left: 30%;
 
 }
 
 
+.maiken2 {
 
-div {
-	text-align: center;
+	width: 90%;
+	padding-left: 5%;
+	padding-top: -20%;
+}
 
+.maiken {
+	display: none;
+}
+
+.farve {
+
+	background-color: #669999;
+
+}
+
+.flex {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.info {
+
+	padding-left: 22%;
+
+}
+
+
+
+.info1 {
+
+	padding-left: 30%;
+	color: white;
+	margin-top: 6%;
+
+}
+
+
+.info2 {
+
+	padding-left: 25%;
+	margin-top: -7%;
+	color: white;
+
+}
+
+.adresse {
+	margin-top: 2%;
+	padding-left: 40%;
+}
+
+.adresse2 {
+
+	padding-left: 14%;
+	margin-top: -4%;
+
+}
+
+
+.googlemap {
+
+	width: 100%;
+	padding-bottom: 45%;
+}
+
+
+/*KONTAKT OS SIDE - SLUT*/
+
+
+/*PRODUKT SIDE START*/
+
+
+.linebreak {
+
+	border-bottom: 1px solid black;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 7%;
+}
+
+wrapper > img {
+
+
+	display: flex;
+	width: 30%;
+	margin: 15%;
+	padding-left: 20%;
+	padding-top: -15%;
+	padding-bottom: -15%;
+
+
+}
+
+.m,
+.m1,
+m2 {
+	padding-left: 5%;
+
+	margin-bottom: -5%;
+}
+
+.m3 {
+
+	padding-bottom: 45%;
+	padding-left: 5%;
+
+}
+
+.maiken4 {
+
+	display: none;
+}
+
+
+/*PRODUKT SIDE SLUT*/
+
+
+/*WEB STARTER*/
+
+@media all and (min-width: 1024px) {
+
+	/*FOOTER*/
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #669999;
+	color: white;
+	text-align: left;
+	padding-left: 5%;
+	margin-bottom: -300px;
+
+}
+
+/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+
+.ig {
+	position: absolute;
+	bottom: 0;
+	width: 5%;
+	padding-left: 80%;
+	margin: 5%;
+	display: inline-block;
+		margin-bottom: -250px;
+
+
+}
+
+.fb {
+	position: absolute;
+	bottom: 0;
+	width: 5%;
+	padding-left: 70%;
+	margin: 5%;
+	display: inline-block;
+			margin-bottom: -250px;
+
+
+}
+
+	/*KONTAKT OS SIDE*/
+
+	.maiken {
+
+		width: 50%;
+		float: right;
+		padding-right: 1%;
+		display: block;		
+
+	}
+
+	.maiken2 {
+
+		display: none;
+	}
+
+
+
+	.kontakt {
+
+		margin-left: -28%;
+
+
+	}
+
+
+	.farve {
+
+		background-color: white;
+	}
+
+
+	.info1 {
+
+		color: black;
+		margin-left: -25%;
+
+	}
+
+	.info2 {
+
+		color: black;
+		margin-left: -20%;
+		margin-top: 2%;
+
+	}
+
+
+	.adresse {
+
+		margin-left: -35%;
+
+	}
+
+	.adresse2 {
+
+		margin-left: -9%;
+		margin-bottom: -10%;
+		padding-top: 5%;
+
+	}
+
+	.googlemap {
+
+		width: 42%;
+		padding-top: 15%;
+		padding-left: 2%;
+
+	}
+
+	.info {
+		display: none;
+	}
+
+	/*KONTAKT OS SIDE SLUT */
+
+
+	/*PRODUKT SIDE START */
+
+
+
+	.grid {
+
+		display: grid;
+		width: 100%;
+		grid-gap: 5px;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas:
+
+			"l l l m m m5 m5 m5"
+			"s s s m1 m1 m5 m5 m5"
+			"m2 m2 m2 m3 m3 m5 m5 m5"
+			"st st st m4 m4 m5 m5 m5"
+			
+
+	}
+
+	.lampe1 {
+
+		grid-area: l;
+		width: 40%;
+
+
+	}
+
+	.m {
+
+		grid-area: m;
+		width: 100%;
+		padding-top: 20%;
+
+
+	}
+
+	.sofa1 {
+
+		grid-area: s;
+		width: 40%;
+
+
+	}
+
+	.m1 {
+
+		grid-area: m1;
+		width: 100%;
+		padding-top: 20%;
+
+
+	}
+
+	.skaenk {
+
+		grid-area: m2;
+		width: 40%;
+
+
+	}
+
+	.m2 {
+
+
+		grid-area: m3;
+		width: 100%;
+		padding-top: 20%;
+
+
+	}
+
+	.stol {
+
+		grid-area: st;
+		width: 40%;
+
+	}
+
+	.m3 {
+
+		grid-area: m4;
+		width: 100%;
+		padding-top: 20%;
+		margin-bottom: -50%;
+
+
+	}
+
+	.maiken4 {
+		grid-area: m5;
+		width: 105%;
+		display: block;
+		margin-left: -13%;
+	}
+
+
+	.linebreak {
+
+		display: none;
+	}
+	
+	
 }
