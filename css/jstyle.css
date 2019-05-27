@@ -68,61 +68,22 @@ forside afsnit
     }
 
 
-    /* Section */
-    .accordion {
-        display: none;
-    }
-    
-    .panel {
-        display: none;
-    }
-
-    .section {
-        clear: both;
-        margin: 0px;
-        padding: 0px;
-        display: block;
-        width: 100%;
-    }
-
-    .top {
-        margin: 1% 0 1% 1%;
-    }
-
-    .bottem {
-        margin: 5% 0 0 0;
-        float: left;
-    }
-
-    /* Column */
-    .col {
-        background: #eee;
-        display: block;
-        float: left;
-        margin: 1% 0 1% 1%;
-        padding: 2%;
-    }
-
-    /* Grid */
-    .grid_1_of_2 {
-        width: 45%
-    }
-
-    .grid_2_of_2 {
-        width: 100%
-    }
-
     article {
         width: 100%;
     }
     
     section {
-        width: 80%;
+        width: 90%;
         margin: 2% 0 2% 10%;
     }
     
-    section h3 {
+    h2 {
         color: black;
+        text-align: center;
+    }
+    
+    ul {
+        width: 50%;
     }
     
     li {
@@ -132,7 +93,30 @@ forside afsnit
     
     p {
         color: dimgray;
+        width: 60%;
     }
     
+    
+    .anmeldelser {
+        background-image: url("/eksamen-kode/images/markq.png") ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 300px;
+    }
+    
+    .knap {
+          border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    }
     
 }
