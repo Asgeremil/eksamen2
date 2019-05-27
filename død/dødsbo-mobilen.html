@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>Untitled document</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Site jeg lære at kode i">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+
+</head>
+
+<body>
+
+    <button class="accordion">OPKØB AF DØDSBO, FLYTTEBO OG RESTBO, SAMT GAMLE MØBLER OG DESIGN<br></button>
+    <div class="panel">
+        <p>Skal du have tømt et dødsbo? Flytte? Eller skal du blot igang med at rydde ud i dine gamle møbler? Så kan jeg helt sikkert hjælpe.
+        </p>
+        <p>
+            Mit navner Majken Nedergaard og jeg er indehaver af butikken, Retrohjem i Viborg, som jeg har drevet fuldtid, siden 2013. Retrohjem er salgskanalen, for de mange smukke møbler og småting, jeg opkøber og giver nyt liv.
+        </p>
+        <p>
+            Jeg har siden 2013 opkøbt dødsboer i hele Danmark. Når jeg køber et dødsbo, foregår det altid med dybeste respspekt og stor omtanke for de pårørende. Jeg ved at man ofte står i en vanskelig og uoverskuelig situation, hvorfor du altid kan forvente, at jeg går til opgaven på den bedste og mest hensigstmæssigevis. Det er vigtigt for mig er, at de mennesker jeg handler med, får den bedste og mest reelle vurdering af deres ting, således at man som pårørende har en god oplevelse, hvor der er ro i maven hele vejen.
+        </p>
+        <p>
+            Der findes rigtig mange opkøbere af dødsboer på markedet og det kan være svært at vælge. Jeg lever i denne branche og ved, hvad jeg har med at gøre, det er ikke blot en hobby. Du er derfor sikret de absolut bedste vilkår og bedste pris, under hele forløbet.</p>
+    </div>
+
+    <button class="accordion">Opkøb og tømning af dødsbo i hele Danmark!<br></button>
+    <div class="panel">
+        <p>Køb og tømning af dødsboer er som nævnt, noget jeg mange års erfaring med og som jeg sætter en stor ære i. Jeg elsker arbejdet med de mange skønne mennesker og familier jeg møder, samt æren I at få lov til at give møblerne nyt liv. Jeg kører gerne til adresser i hele jylland for at hjælpe dig med at rydde og tømme et dødsbo og du får naturligvis altid et seriøst, godt og velovervejet bud. Så uanset om det drejer sig om opkøb af dødsbo på sjælland, fyn eller jylland, så kan jeg varetage opgaven.</p>
+    </div>
+
+
+    <button class="accordion">Opkøb af møbler i teaktræ og palisander<br></button>
+    <div class="panel">
+        <p>Jeg har en stor passion for retro møbler og brugskunst fra perioden 1950’erne-1970’erne. Herunder køb af teaktræsmøbler, palisandermøbler og designmøbler, men mindre genstande som fx keramik, lamper og lignende kan også sagtens være interessant for mig.</p>
+        <p>Kontakt Retrohjem, hvad end der er tale om rydning af dødsbo, eller blot salg af dine gamle møbler – jeg giver altid en god og fair pris, så du er sikret den bedst mulige handel.</p>
+    </div>
+
+
+    <button class="accordion">Anmeldelser – Det siger folk jeg har opkøbt dødsboer af<br></button>
+    <div class="panel">
+        <p>
+            “Jeg har haft fornøjelsen af at lære Majken Rold Nedergaard/Retrohjem.dk at kende ifb. med tømning af en ældrebolig. Jeg kontaktede hende, med henblik på, om hun måske kunne være interesseret i at købe noget af indboet. Det var hun bestemt, og hun kom hurtigt, og vurderede det hun var interesseret i – og ville købe. Der kom hurtigt en aftale igennem, og der blev handlet til min/vores fulde tilfredshed. Hun er meget ærlig og loyal. Jeg kan kun sige positive ting om min oplevelse med at handle med Majken, og giver hende min største anbefaling.”
+            Aase Skov
+        </p>
+        <p>
+
+            “Jeg har i flere år fulgt Retrohjem på forskellige sociale medier og har altid synes, at de sælger de fedeste ting! Da mine søskende så stod i den situation, at vi skulle sælge vores barndomshjem, var vi ikke et øjeblik i tvivl om, at det var Retrohjem, vi ville have til at opkøbe møblerne i hjemmet.
+            Jeg kontaktede Majken og hun kom ud, en lørdag, og vi gennemgik sammen huset og jeg fik lov til at fortælle om tingenes historie og små anekdoter. Majken spurgte tit, om jeg nu var sikker på, at vi ville sælge de forskellige ting og gjorde det klart, at det var vigtigt for hende, at vi havde taget det vi selv ønskede.
+            Vi fik en meget god pris for tingene og var meget glade for hele processen og har med stor fornøjelse fulgt med på Instagram, når de forskellige møbler fra barndomshjemmet, blev sat til salg.
+            Vi kan kun anbefale andre til at bruge Retrohjem til at opkøbe deres møbler, for det bliver gjort med stor professionalitet og med hjertet.”
+            Mvh
+            Karin
+        </p>
+    </div>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
+   
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").load("d-bo.txt");
+  });
+});
+</script>
+    
+
+</body>
+</html>
