@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+.j-article {
+    width: 100%;
+}
+
+.j-section {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.j-h2 {
+    color: black;
+    margin: 1% 0 1% 0;
+}
+
+.j-p {
+    color: gray;
+    margin-bottom: 1%;
+}
+
+.j-li {
+    color: #669999;
+    margin: 1% 0 1% 0;
+}
+
+.j-knap {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.j-img {
+    width: 40%;
+}
+
+.j-billede2 {
+    width: 30%;
+}
