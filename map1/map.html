@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>dødsbo</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Site jeg lære at kode i">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/mapstyle.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    
+    
+    
+    <!-- map del -->
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- map del -->
+
+</head>
+
+<body>
+
+
+<!-- map del -->
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ra2Vib3NzIiwiYSI6ImNqdGlicGpxMDBiMG00OW4wbGxucngzNjUifQ.c-VnmKtAht54iv--kj67Tw';
+const map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/jokkeboss/cjw7nxdn001u61cr48yfu6esv',
+center: [9.393469, 56.443690],
+zoom: 16.0
+});
+</script>
+
+
+<!-- map del -->
+</body>
+
+</html>

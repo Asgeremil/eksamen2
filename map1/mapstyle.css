@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+/*
+map del
+*/
+
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:60%;; }
+
+/*
+map del
+*/
